@@ -56,7 +56,7 @@ export default function Land() {
             <section className=" m-2 md:m-10 flex flex-col gap-10" data-aos="fade-up">
                 <div className="flex flex-col items-center gap-2">
                     <h4>Check for any crypto performance </h4>
-                    <div className="w-6/12 md:w-2/12">
+                    <div className="w-6/12 md:w-4/12 lg:w-3/12">
                         <div className="w-full rounded-lg bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 p-0.5 ">
                             <div className="flex h-full w-full   rounded-lg  bg-white dark:bg-gray-900 ">
 
