@@ -64,7 +64,7 @@ export default function Land() {
                                     onChange={handleChange}
                                     id="coin"
                                     name="coin"
-                                    className="rounded-lg px-2 py-2 w-full active:border-transparent accent-black ring-transparent focus:ring-transparent  bg-transparent" >
+                                    className="rounded-lg mx-2 my-2 w-full active:border-transparent accent-black ring-transparent focus:ring-transparent  bg-transparent" >
                                     <option value="">Select a coin</option>
                                     <option value="Binance Coin">Binance Coin</option>
                                     <option value="Tron Coin">Tron Coin</option>
