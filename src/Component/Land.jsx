@@ -64,7 +64,7 @@ export default function Land() {
                                     onChange={handleChange}
                                     id="coin"
                                     name="coin"
-                                    className="rounded-lg mx-2 my-2 w-full active:border-transparent accent-black ring-transparent focus:ring-transparent  bg-transparent" >
+                                    className="rounded-lg mx-4 md:mx-2 my-2 w-full active:border-transparent accent-black ring-transparent focus:ring-transparent  bg-transparent" >
                                     <option value="">Select a coin</option>
                                     <option value="Binance Coin">Binance Coin</option>
                                     <option value="Tron Coin">Tron Coin</option>
@@ -82,16 +82,36 @@ export default function Land() {
                     <div className="flex h-full w-full flex-col  md:flex-row justify-between   bg-white dark:bg-gray-950 ">
                         <div className="flex w-full p-4 md:p-10 flex-col gap-10">
                             <h4 className="md:text-2xl ">{currentCoin} Analysis</h4>
-                            <div className="w-full flex justify-center flex-row items-center">
+                            <div className="w-full flex justify-center flex-col gap-4 items-center">
                                 <img src="/img/hero-2-1.svg" alt="" />
+                                <div className="flex flex-row gap-10">
+                                    <div className="flex flex-row gap-2 items-center">
+                                        <img src="/img/dot-blue.svg" alt="" />
+                                        <h4 className="text-sm md:text-md">2023</h4>
+                                    </div>
+                                    <div className="flex flex-row gap-2 items-center">
+                                        <img src="/img/dot-green.svg" alt="" />
+                                        <h4 className="text-sm md:text-md">2024</h4>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
                         <span className="border border-gray-600"></span>
                         <div className="flex w-full p-4  md:p-10 flex-col  gap-10">
                             <h4 className="md:text-2xl ">{currentCoin} Chart Performance</h4>
-                            <div className="w-full flex justify-center flex-row items-center">
+                            <div className="w-full flex flex-col justify-center gap-4 items-center">
                                 <img src="/img/hero-2-2.svg" alt="" />
+                                <div className="flex flex-row gap-10">
+                                    <div className="flex flex-row gap-2 items-center">
+                                        <img src="/img/dot-blue.svg" alt="" />
+                                        <h4 className="text-sm md:text-md">2023</h4>
+                                    </div>
+                                    <div className="flex flex-row gap-2 items-center">
+                                        <img src="/img/dot-green.svg" alt="" />
+                                        <h4 className="text-sm md:text-md">2024</h4>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
