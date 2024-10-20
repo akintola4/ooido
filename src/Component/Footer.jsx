@@ -15,13 +15,13 @@ export default function Footer() {
                                 {/* <img src="/img/logo-black.svg" className=" block dark:hidden " alt="" />
                                 <img src="/img/logo-light.svg" className=" hidden dark:block 2" alt="" /> */}
                                 <img src="/img/logo-light.svg" className=" " alt="" />
-                                <p className=" text-md md:text-center lg:text-left">The most reliable digital platform for  your online presence, allowing you to own your own value in web3.</p>
+                                <p className=" text-md text-center lg:text-left">The most reliable digital platform for  your online presence, allowing you to own your own value in web3.</p>
                                 <div className="flex gap-5 flex-row ">
                                     <button className="text-2xl"><FaXTwitter /></button>
                                     <button className="text-2xl"><FaGoogle /></button>
                                     <button className="text-2xl"><FaInstagram /></button>
                                 </div>
-                                <h4>© 2024 ooido implemented by <a href="">Dev Akintola</a></h4>
+                                <h4 className=" text-md text-center lg:text-left">© 2024 Ooido designed by <a href="https://x.com/zionxi99?s=21">Mayowa</a>  and implemented by <a href="https://x.com/photofola">Dev Akintola</a></h4>
                             </div>
                             <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 md:gap-10 justify-between my-5 lg:w-8/12 lg:grid-rows-1">
                                 <ul className="flex flex-col gap-2  text-left justify-between">

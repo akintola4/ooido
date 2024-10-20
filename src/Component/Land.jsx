@@ -56,9 +56,9 @@ export default function Land() {
             <section className=" m-2 md:m-10 flex flex-col gap-10" data-aos="fade-up">
                 <div className="flex flex-col items-center gap-2">
                     <h4>Check for any crypto performance </h4>
-                    <div className="w-4/12 md:w-2/12">
+                    <div className="w-6/12 md:w-2/12">
                         <div className="w-full rounded-lg bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 p-0.5 ">
-                            <div className="flex h-full w-full  rounded-lg  bg-white dark:bg-gray-900 ">
+                            <div className="flex h-full w-full   rounded-lg  bg-white dark:bg-gray-900 ">
 
                                 <select
                                     onChange={handleChange}
@@ -83,7 +83,7 @@ export default function Land() {
                         <div className="flex w-full p-4 md:p-10 flex-col gap-10">
                             <h4 className="md:text-2xl ">{currentCoin} Analysis</h4>
                             <div className="w-full flex justify-center flex-row items-center">
-                                <img src="img/hero-2-1.svg" alt="" />
+                                <img src="/img/hero-2-1.svg" alt="" />
                             </div>
 
                         </div>
@@ -91,7 +91,7 @@ export default function Land() {
                         <div className="flex w-full p-4  md:p-10 flex-col  gap-10">
                             <h4 className="md:text-2xl ">{currentCoin} Chart Performance</h4>
                             <div className="w-full flex justify-center flex-row items-center">
-                                <img src="img/hero-2-2.svg" alt="" />
+                                <img src="/img/hero-2-2.svg" alt="" />
                             </div>
 
                         </div>
@@ -100,7 +100,7 @@ export default function Land() {
             </section>
             <section className=" flex flex-col mx-2 md:mx-10 p-4 xl:p-20  items-center gap-10">
                 <h4 className="bg-gradient-to-r from-neutral-100 via-neutral-500 text-center to-neutral-700 dark:text-transparent  bg-clip-text md:text-4xl lg:text-6xl text-2xl ">Analyze every crypto asset</h4>
-                <img src="img/hero-3-1.svg" alt=""  data-aos="fade-up"/>
+                <img src="/img/hero-3-1.svg" alt=""  data-aos="fade-up"/>
                 <div className="grid grid-cols-2 gap-5 md:gap-10 justify-between">
                     {card1}
                 </div>
@@ -119,7 +119,7 @@ export default function Land() {
                 <h4 className="bg-gradient-to-r from-neutral-100 via-neutral-300 to-neutral-700 text-transparent invert dark:invert-0 bg-clip-text md:text-4xl text-2xl">Ooido is global</h4>
                 <p className=" text-gray-700 dark:text-gray-300">You can use ooido from anywhere around the world with ease</p>
                 </div>
-                <img src="img/hero-5.svg" alt="" className="" data-aos="zoom-in-up"/>
+                <img src="/img/hero-5.svg" alt="" className="" data-aos="zoom-in-up"/>
             </section>
             <Sub  />
             <Footer />
