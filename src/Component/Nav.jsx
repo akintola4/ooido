@@ -83,11 +83,13 @@ export default function Nav() {
                             to="/about">
                             About
                         </Link></li>
+                        
                     <li className="px-5 py-2 transition duration-300 dark:text-white">
                         <Link className="flex flex-row gap-2 items-center"
                             to="/contact">
                             Contact us
                         </Link></li>
+                        <li className="px-5 py-2 transition duration-300 dark:text-white"> <DarkSwitcher /> </li>
 
                 </ul>
             </div>

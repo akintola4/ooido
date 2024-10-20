@@ -12,7 +12,7 @@ export default function Hero() {
                 <button className="bg-gradient-to-r from-neutral-100 via-neutral-100 to-neutral-500 rounded-lg px-8   py-2 hover:animate delay-50 hover:-translate-y-1 hover:scale-110 duration-200 invert dark:invert-0 dark:text-black">Get Started</button>
                 <div className="flex flex-col items-center gap-2">
                 <h4>100k+ Verified Users</h4>
-                <img src="img/hero-1-1.svg" className='scale-125' alt="" />
+                <img src="/img/hero-1-1.svg" className='scale-125 z-1' alt="" />
 
                 <div className='grid grid-cols-2 md:grid-cols-3 py-10 gap-5'>
                     <div className='flex flex-row gap-2 items-center flex-nowrap'>
