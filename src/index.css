@@ -1,0 +1,6 @@
+select {
+    appearance:block; /* Removes default appearance */
+    -webkit-appearance: block;
+    -moz-appearance: block;
+    /* Add custom styles like background color, font size, etc. */
+}
