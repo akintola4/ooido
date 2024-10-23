@@ -31,7 +31,7 @@ export default function Hero() {
                          <div className='rounded-full border-none dark:border-none p-2 bg-gray-900 text-gray-50 dark:bg-gray-50 dark:text-gray-900 '>
                                 <FaCheck color='text-check' />
                             </div>
-                            <h4 className='font-normal text-sm md:text-lg'>CTFC-regulated options</h4>
+                            <h4 className='font-normal text-xs md:text-lg'>CTFC-regulated options</h4>
                         </div>
                         <div className='flex flex-row gap-2 col-span-2 md:col-span-1 justify-center items-center flex-nowrap'>
                             {/* <div className='bg-gradient-to-r h-4/6 md:h-3/6 lg:h-full flex items-center from-neutral-100 via-neutral-500 text-white to-neutral-500 p-2 rounded-full'>
