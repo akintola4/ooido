@@ -24,25 +24,25 @@ export default function Nav() {
                     <img src="/img/logo-light.svg" className="w-6/12 hidden dark:block md:w-6/12" alt="" />
                 </Link>
                 <ul className=" flex-row items-center hidden gap-20 xl:gap-32 bg-gray-50 dark:bg-gray-950 dark:border-gray-900 border  rounded-lg py-2 px-3 justify-center  lg:flex ">
-                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-sky-300 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-900 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                         <Link to="/" className="flex flex-row gap-2 items-center">
                             Home
                         </Link>
                     </li>
 
 
-                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-sky-300 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-900 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                         <Link to="/product" className="flex flex-row gap-2 items-center">
                             Product
                         </Link>
                     </li>
 
-                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-sky-300 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-900 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                         <Link className="flex flex-row gap-2 items-center"
                             to="/About">
                             About
                         </Link></li>
-                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-sky-300 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+                    <li className="relative text-md  w-fit block hover:text-black after:block after:content-[''] after:absolute after:h-[2px] after:bg-gray-900 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
                         <Link className="flex flex-row gap-2 items-center"
                             to="/contactus">
                             Contact us
