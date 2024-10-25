@@ -51,9 +51,9 @@ export default function Nav() {
 
                 <div className="nav-3  xl:w-3/12 flex items-end justify-end">
                     <ul className=" flex-row hidden gap-3 lg:flex items-center ">
-                    <button className='px-4 py-2 bg-gray-100 hover:bg-transparent hover:bg-gray-950 hover:border-gray-900  dark:hover:text-gray-100 border border-gray-100 transition ease-in-out  delay-150 duration-300 hover:text-white dark:text-gray-900 rounded-lg'>Login</button>
+                    <button className='px-4 py-2 bg-gray-100 hover:bg-transparent  hover:border-gray-900 dark:bg-gray-950 dark:text-gray-50 dark:hover:text-gray-100  hover:bg-gray-900 hover:text-gray-50  transition ease-in-out  delay-150 duration-300   rounded-lg'>Login</button>
                        
-                        <button className='px-4 py-2 bg-gray-950 hover:bg-gray-100 hover:text-gray-900   border dark:border-gray-900 transition ease-in-out  delay-150 duration-300 text-white rounded-lg'>Get started</button>
+                        <button className='px-4 py-2 bg-gray-950 hover:bg-gray-100 hover:text-gray-900 dark:bg-gray-100 dark:text-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50    transition ease-in-out  delay-150 duration-300 text-white rounded-lg'>Get started</button>
 
                        
                         <DarkSwitcher />
@@ -89,7 +89,16 @@ export default function Nav() {
                             to="/contact">
                             Contact us
                         </Link></li>
-                        <li className="px-5 py-2 transition duration-300 dark:text-white"> <DarkSwitcher /> </li>
+                        <li className="px-5 py-2 transition duration-300 dark:text-white">
+                        <ul className=" flex-row  gap-4 flex items-center ">
+                    <button className='px-4 py-2 bg-gray-100 hover:bg-transparent  hover:border-gray-900 dark:bg-gray-950 dark:text-gray-50 dark:hover:text-gray-100  hover:bg-gray-900 hover:text-gray-50  transition ease-in-out  delay-150 duration-300   rounded-lg'>Login</button>
+                       
+                        <button className='px-4 py-2 bg-gray-950 hover:bg-gray-100 hover:text-gray-900 dark:bg-gray-100 dark:text-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50    transition ease-in-out  delay-150 duration-300 text-white rounded-lg'>Get started</button>
+
+                       
+                        <DarkSwitcher />
+                    </ul>
+                             </li>
 
                 </ul>
             </div>
