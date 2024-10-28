@@ -14,7 +14,7 @@ export default function Hero() {
                     <h4>100k+ Verified Users</h4>
                     <img src="/img/hero-1-1.svg" className='scale-125 z-1 relative' alt="" />
 
-                    <div className='grid grid-cols-2 md:grid-cols-3 grid-rows-2 py-10 gap-5'>
+                    <div className='grid grid-cols-2 md:grid-cols-3 grid-rows-2 py-10 justify-between'>
                         <div className='flex flex-row gap-2 items-center flex-nowrap'>
                             {/* <div className='bg-gradient-to-r h-4/6 md:h-3/6 lg:h-full flex items-center from-neutral-100 via-neutral-500 text-white to-neutral-500 p-2 rounded-full'>
                         <FaCheck  />
