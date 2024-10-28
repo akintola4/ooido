@@ -79,7 +79,7 @@ export default function Land() {
                     <form className="max-w-sm mx-auto   md:w-6/12 lg:w-4/12 xl:w-5/12 ">
                     <h4 className=" py-2">Check for any crypto performance </h4>
                     <div className="  p-2 border border-gray-500/50  rounded-lg">
-                    <label htmlFor="countries" className="block mb-1 text-xs text-opacity-25 dark:text-gray-400 font-medium text-gray-900 ">Crypto type</label>
+                    <label htmlFor="countries" className="block ml-1 text-xs text-opacity-25 dark:text-gray-400 font-medium text-gray-900 ">Crypto type</label>
                         <select  onChange={handleChange}
                                     id="coin"
                                     name="coin" className=" text-gray-900 text-sm rounded-lg focus:ring-transparent focus:border-transparent block w-full bg-transparent ring-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-transparent active:ring-transparent focus:outline-none dark:focus:border-transparent ">
