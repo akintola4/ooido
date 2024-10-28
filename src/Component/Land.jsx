@@ -55,7 +55,7 @@ export default function Land() {
             <Hero />
             <section className=" m-2 md:m-10 flex flex-col gap-10" data-aos="fade-up">
                 <div className="flex flex-col items-center gap-2">
-                    <h4 className=" w-8/12 md:w-6/12 lg:w-4/12  xl:w-3/12">Check for any crypto performance </h4>
+                   
                     {/* <div className="w-6/12 md:w-4/12 lg:w-3/12">
                         <div className="w-full rounded-lg bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 p-0.5 ">
                             <div className="flex h-full w-full   rounded-lg  bg-white dark:bg-gray-900 ">
@@ -76,8 +76,10 @@ export default function Land() {
                         </div>
                     </div> */}
 
-                    <form className="max-w-sm mx-auto border border-gray-500/50 p-2 w-8/12 md:w-6/12 lg:w-4/12 xl:w-5/12 rounded-lg ">
-                        <label htmlFor="countries" className="block mb-1 text-xs text-opacity-25 dark:text-gray-400 font-medium text-gray-900 ">Crypto type</label>
+                    <form className="max-w-sm mx-auto   md:w-6/12 lg:w-4/12 xl:w-5/12 ">
+                    <h4 className=" py-2">Check for any crypto performance </h4>
+                    <div className="  p-2 border border-gray-500/50  rounded-lg">
+                    <label htmlFor="countries" className="block mb-1 text-xs text-opacity-25 dark:text-gray-400 font-medium text-gray-900 ">Crypto type</label>
                         <select  onChange={handleChange}
                                     id="coin"
                                     name="coin" className=" text-gray-900 text-sm rounded-lg focus:ring-transparent focus:border-transparent block w-full bg-transparent ring-transparent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-transparent active:ring-transparent focus:outline-none dark:focus:border-transparent ">
@@ -87,6 +89,8 @@ export default function Land() {
                             <option value="Ton Coin">Ton Coin</option>
                             <option value="Etherum Coin">Etherum Coin</option>
                         </select>
+                    </div>
+                       
                     </form>
 
 
